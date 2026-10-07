@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Work</title>
+
+  <script>
+    const path = window.location.pathname;
+    const repo = "/MYWORKS";
+
+    if (path.startsWith(repo)) {
+      const route = path.slice(repo.length);
+
+      sessionStorage.setItem(
+        "redirect",
+        route + window.location.search + window.location.hash
+      );
+
+      window.location.replace(repo + "/");
+    }
+  </script>
+</head>
+
+<body>
+</body>
+</html>
