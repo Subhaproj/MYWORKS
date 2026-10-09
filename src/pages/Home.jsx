@@ -41,7 +41,7 @@ function Home() {
     />
   </div>
 </div>
-
+            <br></br>
             <p className="hero-greeting">
               Hello, I'm
             </p>
