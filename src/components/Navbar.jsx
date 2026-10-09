@@ -73,8 +73,9 @@ function Navbar() {
             to="/"
             onClick={handleHomeClick}
           >
+            <button>
             Home
-          </Link>
+          </button></Link>
 
           <button onClick={() => goToSection("about")}>
             About
@@ -96,8 +97,11 @@ function Navbar() {
             Contact
           </button>
 
-          <Link to="/work" onClick={closeMenu}>
+
+          <Link  to="/work" onClick={closeMenu}>
+          <button>
             Work
+          </button> 
           </Link>
 
           {/* Theme Toggle */}
