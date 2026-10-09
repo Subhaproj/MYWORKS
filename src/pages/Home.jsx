@@ -62,13 +62,14 @@ function Home() {
             </p>
 
             <div className="hero-buttons">
-              <a href="#projects" className="btn primary-btn">
-                View Projects
-              </a>
+              <Link
+                  to="/work"
+                  className="btn primary-btn"
+                >
+                  View Case Study →
+                </Link>
 
-              <a href="#contact" className="btn secondary-btn">
-                Contact Me
-              </a>
+              
 
               <a
   href={resume}
@@ -244,14 +245,12 @@ function Home() {
             <span>Tailwind CSS</span>
           </div>
 
-          <a
-            href="https://subhaproj.github.io/airbnb-clone/"
-            target="_blank"
-            rel="noreferrer"
-            className="project-link"
-          >
-            View Project →
-          </a>
+          <Link
+                  to="/work/project/airbnb-clone"
+                  className="project-link"
+                >
+                  View Case Study →
+                </Link>
 
         </div>
 
@@ -285,12 +284,12 @@ function Home() {
             <span>OpenCV</span>
           </div>
 
-          <a
-            href="#contact"
-            className="project-link"
-          >
-            View Details →
-          </a>
+          <Link
+                  to="/work/project/face-recognition"
+                  className="project-link"
+                >
+                  View details →
+                </Link>
 
         </div>
 
@@ -329,12 +328,12 @@ function Home() {
             <span>Recharts</span>
           </div>
 
-          <a
-            href="#contact"
-            className="project-link"
-          >
-            View Details →
-          </a>
+          <Link
+                  to="/work/project/admin-dashboard"
+                  className="project-link"
+                >
+                  View Details →
+                </Link>
 
         </div>
 
@@ -373,12 +372,12 @@ function Home() {
             <span>Prototyping</span>
           </div>
 
-          <a
-            href="#designs"
-            className="project-link"
-          >
-            View Design →
-          </a>
+          <Link
+                  to="/work/project/wonderpark"
+                  className="project-link"
+                >
+                  View Case Study →
+                </Link>
 
         </div>
 
@@ -431,9 +430,12 @@ function Home() {
             <span>Prototype</span>
           </div>
 
-          <a href="#contact" className="design-link">
-            View Case Study →
-          </a>
+          <Link
+                  to="/work/project/wonderpark"
+                  className="project-link"
+                >
+                  View Case Study →
+                </Link>
 
         </div>
 
@@ -467,9 +469,12 @@ function Home() {
             <span>Prototyping</span>
           </div>
 
-          <a href="#contact" className="design-link">
-            Explore Designs →
-          </a>
+          <Link
+                  to="/work/ui-ux"
+                  className="project-link"
+                >
+                  View Case Study →
+                </Link>
 
         </div>
 
