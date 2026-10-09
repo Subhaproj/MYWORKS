@@ -88,10 +88,6 @@ function Navbar() {
             Projects
           </button>
 
-          <button onClick={() => goToSection("designs")}>
-            UI/UX
-          </button>
-
           <button onClick={() => goToSection("education")}>
             Education
           </button>
