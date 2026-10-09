@@ -53,7 +53,7 @@ function Navbar() {
       <div className="navbar-container">
 
         <Link to="/" className="logo">
-          My <span>Work</span>
+          My <span>Works</span>
         </Link>
 
         <button
