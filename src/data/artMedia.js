@@ -60,6 +60,8 @@ import eveningbirds from "../assets/art/paintings/eveningbirds.jpg";
 import horseundermoon from "../assets/art/paintings/horseundermoon.jpg";
 import meeteye from "../assets/art/paintings/meeteye.jpg";
 import moonundertree from "../assets/art/paintings/moonundertree.jpg";
+import Ocean from "../assets/art/paintings/Ocean.jpeg";
+import landscape from "../assets/art/paintings/landscape.jpeg";
 
 const artMedia = {
     /* Crayons images */
@@ -293,6 +295,14 @@ const artMedia = {
         image: moonundertree,
         title: "Moon Under Tree",
     }, 
+    {
+      image: Ocean,
+      title: "Night Ocean",
+    },
+    {
+      image: landscape,
+      title: "Landscapes",
+    },
     
   ],
 };
